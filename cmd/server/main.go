@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/MSkrzypietz/proglog/internal/server"
+	"github.com/MSkrzypietz/proglog/internal/httpserver"
 	"log"
 )
 
 func main() {
-	srv := server.NewHttpServer(":8080")
+	srv := httpserver.NewHttpServer(":8080")
 	log.Fatal(srv.ListenAndServe())
 }
