@@ -3,6 +3,8 @@ module github.com/MSkrzypietz/proglog
 go 1.23.1
 
 require (
+	github.com/casbin/casbin/v2 v2.100.0
+	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/stretchr/testify v1.9.0
 	github.com/tysonmote/gommap v0.0.3
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142
@@ -11,6 +13,8 @@ require (
 )
 
 require (
+	github.com/bmatcuk/doublestar/v4 v4.6.1 // indirect
+	github.com/casbin/govaluate v1.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/net v0.28.0 // indirect
